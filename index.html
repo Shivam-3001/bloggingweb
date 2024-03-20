@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Blogging Website</h1>
+</div>
+
+
+<div class="topnav">
+    <a href="#" onclick="reload()" class="Blog">
+        <img src="./logo.png" alt="Blog">
+    </a>   
+  <a href="#">HOME</a>
+  <a href="#">BLOG</a>
+  <a href="#">CATEGORIES</a>
+  <a href="#">About</a>
+    <input id="search-text"style="float:right" type="text" class="news-input" placeholder="e.g. Science">
+    <button id="search-button" style="float:right" class="search-button">Search</button>
+</div>
+</div>
+</class>
+
+
+
+<!-- Slide Show -->
+
+<section>
+    <img class="mySlides" src="picture1.jpg" style="width:1300px;height:700px;";>
+    <img class="mySlides" src="picture2.jpg" style="width:1300px;height:700px;";>
+    <img class="mySlides" src="picture3.jpg" style="width:1300px;height:700px;";>
+  </section>
+  
+
+<div class="row">
+  <div class="side">
+    <h2>Latest posts</h2>
+    <h5>SUb Headings:</h5>
+    <div class="fakeimg" style="height:60px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+
+    <div class="cards-container container flex" id="cards-container">  
+    </div>
+
+    <template id="template-news-card">
+      <div class="card">
+          <div class="card-header">
+              <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+          </div>
+          <div class="card-content">
+              <h3 id="news-title">This is the Title</h3>
+              <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+              <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+          </div>
+      </div>
+   </template>
+  </div>
+
+
+
+  <div class="main">
+    <div class="authors">
+    <h2>Authors</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <!--<div class="fakeimg" style="height:60px;">Image</div>-->
+    <ul>
+      <li>
+        <img src="author1.jpg" alt="Author 1">
+        <h3>Author 1</h3>
+        <p>Faishon Designer, blogger.</p>
+      </li>
+      <li>
+        <img src="author2.jpg" alt="Author 2">
+        <h3>Author 2</h3>
+        <p>Activist,Reporter.</p>
+      </li>
+      <li>
+        <img src="author3.jpg" alt="Author 3">
+        <h3>Author 3</h3>
+        <p>Content Creator, Blogger.</p>
+      </li>
+    </ul>
+  </div>
+
+    <br>
+     <div class="categories">
+    <h2>CATEGORIES</h2>
+    <ul>
+      <li><a href="#">Lifestyle</a></li>
+      <li><a href="#"> Travel </a></li>
+      <li><a href="#"> Food </a></li>
+      <li><a href="#"> Health Care</a></li>
+      <li><a href="#">Technology </a></li>
+    </ul>
+    </div>
+    <br>
+
+    <h5>Title description</h5>
+    <!--<div class="fakeimg" style="height:60px;">Image</div>-->
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+   
+  </di>
+</div>
+
+<footer>
+  <p>&copy; 2024 Website by Tanya Sharma.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
