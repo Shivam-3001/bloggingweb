@@ -104,6 +104,7 @@ body {
   justify-content: space-around;
 }
   .cards-container {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 20px;
